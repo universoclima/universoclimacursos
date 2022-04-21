@@ -194,7 +194,6 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 40px;
-
 } */
 
 .copy{
@@ -282,11 +281,9 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .contenedor-reparacion img{
     width: 30%;
 }
-
 .reparacion-reparacion{
     width: 45%;
 } */
@@ -299,11 +296,9 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .contenedor-plaquetas img{
     width: 30%;
 }
-
 .plaquetas-plaquetas{
     width: 45%;
 } */
