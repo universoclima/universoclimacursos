@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-  <!-- <script>
+   <script>
         function disabletext(e){
         return false
         }
@@ -21,39 +21,83 @@
         return false
         }
         document.oncontextmenu=deshabilitar
-        </script> -->
+        </script> 
 
    
 <head>
-         
-   
+   <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '504123261426567');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=504123261426567&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->      
+   <meta name="facebook-domain-verification" content="cqm5jti3o0flu2owco97hqt87ttyf6" />
 
 
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos Universo Clima</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="contador/estilo.css">
-
-
 
     <link rel="stylesheet" href="whatsapp.css">
     <link rel="stylesheet" href="whatsapp.html">
-
- 
-</head>
-<body>
-
-      
    
+   
+   
+</head>
+  
+<body>
+ <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108691114659862");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[1];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+ 
+<!-- ACA FLOAT LEFT -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=5491150140293&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     </a>	
+
 
    
     <header class="header" id="inicio">
